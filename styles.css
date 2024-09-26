@@ -143,11 +143,7 @@ h3 {
     border-radius: 10px;
     box-shadow: 0 4px 8px var(--card-shadow);
     transition: transform 0.5s;
-}
-
-.project {
-    height: 450px;
-    align-items: center;
+    height: 10px;
 }
 
 .card:hover {
@@ -168,7 +164,11 @@ h3 {
 
 .card-text {
     color: #333;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+}
+
+.project{
+    height: 400px
 }
 
 .container h2 {
@@ -314,17 +314,11 @@ label {
     html {
         font-size: 35%;
     }
-    .project {
-        height: 300px;
-    }
 }
 
 @media only screen and (min-width: 700px) {
     html {
         font-size: 56%;
-    }
-    .project {
-        height: 500px;
     }
 }
 
