@@ -137,6 +137,10 @@ h3 {
     width: 50px;
 }
 
+section{
+    padding: 20px;
+}
+
 .card {
     background-color: var(--card-background);
     border: 1px solid #ddd;
@@ -305,19 +309,34 @@ label {
 
 @media only screen and (min-width: 300px) {
     html {
-        font-size: 30%;
+        font-size: 50%;
+    }
+    .card img {
+        object-fit: cover;
+        height: 125px;
+    }
+    .project{
+    height: 300px;
+    margin-bottom: 20px;
     }
 }
 
 @media only screen and (min-width: 425px) {
     html {
-        font-size: 35%;
+        font-size: 55%;
+    }
+    section{
+        padding: 30px;
     }
 }
 
 @media only screen and (min-width: 700px) {
     html {
         font-size: 56%;
+    }
+    .project{
+    height: 375px;
+    margin-bottom: 20px;
     }
 }
 
@@ -328,6 +347,14 @@ label {
 
     .card {
         max-width: 90%;
+    } 
+    .card img {
+        object-fit: cover;
+        height: 200px;
+    }
+    .project{
+    height: 400px;
+    margin-bottom: 20px;
     }
 }
 
